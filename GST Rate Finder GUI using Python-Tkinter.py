@@ -39,7 +39,7 @@ if __name__ == "__main__" :
 	gui = Tk() 
 	
 	# Set the background colour of GUI window 
-	gui.configure(background = "light green") 
+	gui.configure(background = "yellow") 
 	
 	# set the name of tkinter GUI window 
 	gui.title("GST Rate Finder") 
@@ -49,25 +49,25 @@ if __name__ == "__main__" :
 
 	# Create a Original Price: label 
 	org_price = Label(gui, text = "Original Price", 
-					bg = "blue") 
+					bg = "pink") 
 	
 	# Create a Net Price : label 
 	net_price = Label(gui, text = "Net Price", 
-					bg = "blue") 
+					bg = "pink") 
 
 	# Create a Find Button and attached to 
 	# findGst function 
 	find = Button(gui, text = "Find", fg = "Black", 
-				bg = "Red", 
+				bg = "white", 
 				command = findGst) 
 	
 	# Create a Gst Rate : label 
-	gst_rate = Label(gui, text = "Gst Rate", bg = "blue") 
+	gst_rate = Label(gui, text = "Gst Rate", bg = "pink") 
 
 	# Create a Clear Button and attached to 
 	# clearAll function 
 	clear = Button(gui, text = "Clear", fg = "Black", 
-				bg = "Red", 
+				bg = "white", 
 				command = clearAll) 
 
 	# grid method is used for placing 
